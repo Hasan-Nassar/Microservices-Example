@@ -1,0 +1,9 @@
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\bin\Debug\netstandard2.0\Actio.common.deps.json
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\bin\Debug\netstandard2.0\Actio.common.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\bin\Debug\netstandard2.0\Actio.common.pdb
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\obj\Debug\netstandard2.0\Actio.common.csprojAssemblyReference.cache
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\obj\Debug\netstandard2.0\Actio.common.AssemblyInfoInputs.cache
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\obj\Debug\netstandard2.0\Actio.common.AssemblyInfo.cs
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\obj\Debug\netstandard2.0\Actio.common.csproj.CoreCompileInputs.cache
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\obj\Debug\netstandard2.0\Actio.common.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.common\obj\Debug\netstandard2.0\Actio.common.pdb

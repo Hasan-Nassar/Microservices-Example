@@ -1,11 +1,11 @@
 ﻿using System;
-using Actio.Common.Commands;
 using Actio.Common.Events;
 using Actio.Common.RabbitMq;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using RawRabbit;
+using Actio.Common.Commands;
 
 namespace Actio.Common.Services
 {
@@ -23,16 +23,18 @@ namespace Actio.Common.Services
         public static HostBuilder Create<TStartup>(string[] args) where TStartup : class
         {
             Console.Title = typeof(TStartup).Namespace;
-            var config = new ConfigurationBuilder()
-                .AddEnvironmentVariables()
-                .AddCommandLine(args)
-                .Build();
-
-            var WebHostBuilder = WebHost.CreateDefaultBuilder(args)
+            IConfigurationRoot config = null;
+            config = new ConfigurationBuilder()
+                    .AddEnvironmentVariables()
+                    .AddCommandLine(args)
+                    .Build();
+          
+            var webHostBuilder = WebHost.CreateDefaultBuilder()
+                
                 .UseConfiguration(config)
                 .UseStartup<TStartup>();
-            
-            return new HostBuilder(WebHostBuilder.Build());
+
+            return new HostBuilder(webHostBuilder.Build());
         }
 
         public abstract class BuilderBase
@@ -65,8 +67,8 @@ namespace Actio.Common.Services
 
         public class Busbuilder : BuilderBase
         {
-            private readonly IWebHost _webHost;
-                private IBusClient _bus;
+                 private readonly IWebHost _webHost;
+                 private IBusClient _bus;
                 
                 public Busbuilder(IWebHost webHost,IBusClient bus)
                 {
@@ -76,18 +78,22 @@ namespace Actio.Common.Services
                 
                 public Busbuilder SubscribeToCommand<TCommand>() where TCommand : ICommand
                 {
-                    var hundler = (ICommandHandler<TCommand>) _webHost.Services
+                    var handler = (ICommandHandler<TCommand>)_webHost.Services
                         .GetService(typeof(ICommandHandler<TCommand>));
-                    _bus.WithCommandHandlerASync(hundler);
+
+                    _bus.WithCommandHandlerASync(handler);
+
                     return this;
                     
                 }
                 
                 public Busbuilder SubscribeToEvent<TEvent>() where TEvent : IEvent
-                {
-                    var hundler = (IEventHandler<TEvent>) _webHost.Services
+                { 
+                    var handler = (IEventHandler<TEvent>)_webHost.Services
                         .GetService(typeof(IEventHandler<TEvent>));
-                    _bus.WithEventHandlerASync(hundler);
+
+                    _bus.WithEventHandlerASync(handler);
+
                     return this;
                 }
                 

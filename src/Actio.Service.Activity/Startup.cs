@@ -6,6 +6,7 @@ using Actio.Common.Commands;
 using Actio.Common.Events;
 using Actio.Common.RabbitMq;
 using Actio.Service.Activity.Handlers;
+using Actio.Service.Activity.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,7 @@ namespace Actio.Service.Activity
             services.AddControllers();
             services.AddRabbitMq(Configuration);
             services.AddTransient<ICommandHandler<CreateActivity>, CreateActivityHandler>();
+            services.AddScoped<IActivityService,ActivityService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

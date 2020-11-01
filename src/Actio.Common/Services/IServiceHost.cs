@@ -2,6 +2,6 @@
 {
     public interface IServiceHost
     {
-        void Run();
+        /*void Run();*/
     }
 }

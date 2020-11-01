@@ -35,6 +35,13 @@
         </e>
         <e p="Actio.common" t="IncludeRecursive">
           <e p="Actio.common.csproj" t="IncludeRecursive" />
+          <e p="Auth" t="Include">
+            <e p="Extensions.cs" t="Include" />
+            <e p="IJwtHandler.cs" t="Include" />
+            <e p="JsonWebToken.cs" t="Include" />
+            <e p="JWTHandler.cs" t="Include" />
+            <e p="JwtOptions.cs" t="Include" />
+          </e>
           <e p="bin" t="ExcludeRecursive" />
           <e p="Class1.cs" t="Include" />
           <e p="Commands" t="Include">
@@ -47,6 +54,7 @@
           </e>
           <e p="Events" t="Include">
             <e p="ActivityCreated.cs" t="Include" />
+            <e p="CreateActivityRejected.cs" t="Include" />
             <e p="CreateUserRejected.cs" t="Include" />
             <e p="IAthenticatedEvent.cs" t="Include" />
             <e p="IEvent.cs" t="Include" />
@@ -54,6 +62,9 @@
             <e p="IRejectedEvent.cs" t="Include" />
             <e p="UserAthenticated.cs" t="Include" />
             <e p="UserCreated.cs" t="Include" />
+          </e>
+          <e p="Exception" t="Include">
+            <e p="ActioException.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -78,8 +89,14 @@
           <e p="bin" t="ExcludeRecursive" />
           <e p="Controllers" t="Include" />
           <e p="Domain" t="Include">
-            <e p="Core" t="Include" />
-            <e p="Repositories" t="Include" />
+            <e p="Core" t="Include">
+              <e p="Activity.cs" t="Include" />
+              <e p="Category.cs" t="Include" />
+            </e>
+            <e p="Repositories" t="Include">
+              <e p="IActivityRepository.cs" t="Include" />
+              <e p="ICategoryRepository.cs" t="Include" />
+            </e>
           </e>
           <e p="Handlers" t="Include">
             <e p="CreateActivityHandler.cs" t="Include" />
@@ -95,6 +112,10 @@
           <e p="Properties" t="Include">
             <e p="launchSettings.json" t="Include" />
           </e>
+          <e p="Services" t="Include">
+            <e p="ActivityService.cs" t="Include" />
+            <e p="IActivityService.cs" t="Include" />
+          </e>
           <e p="Startup.cs" t="Include" />
         </e>
         <e p="Actio.service.Identity" t="IncludeRecursive">
@@ -103,7 +124,22 @@
           <e p="appsettings.json" t="Include" />
           <e p="bin" t="ExcludeRecursive" />
           <e p="Controllers" t="Include">
-            <e p="WeatherForecastController.cs" t="Include" />
+            <e p="AccountController.cs" t="Include" />
+          </e>
+          <e p="Domain" t="Include">
+            <e p="Core" t="Include">
+              <e p="User.cs" t="Include" />
+            </e>
+            <e p="Repository" t="Include">
+              <e p="IUserRepository.cs" t="Include" />
+            </e>
+            <e p="Service" t="Include">
+              <e p="Encrypter.cs" t="Include" />
+              <e p="IEncrypter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Handlers" t="Include">
+            <e p="CreateUserHandlers.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -116,8 +152,11 @@
           <e p="Properties" t="Include">
             <e p="launchSettings.json" t="Include" />
           </e>
+          <e p="Services" t="Include">
+            <e p="IUserService.cs" t="Include" />
+            <e p="UserSErvice.cs" t="Include" />
+          </e>
           <e p="Startup.cs" t="Include" />
-          <e p="WeatherForecast.cs" t="Include" />
         </e>
       </e>
     </e>

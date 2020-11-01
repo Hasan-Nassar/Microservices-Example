@@ -38,3 +38,9 @@ C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcore
 C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\libuv.dll
 C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libuv.dll
 C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libuv.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.service.Identity\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

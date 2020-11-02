@@ -2459,7 +2459,7 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "Actio.common/1.0.0": {
+      "Actio.Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2473,10 +2473,10 @@
           "RawRabbit.Operations.Subscribe": "2.0.0-beta8"
         },
         "compile": {
-          "bin/placeholder/Actio.common.dll": {}
+          "bin/placeholder/Actio.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Actio.common.dll": {}
+          "bin/placeholder/Actio.Common.dll": {}
         }
       }
     }
@@ -7544,15 +7544,15 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "Actio.common/1.0.0": {
+    "Actio.Common/1.0.0": {
       "type": "project",
-      "path": "../Actio.common/Actio.common.csproj",
-      "msbuildProject": "../Actio.common/Actio.common.csproj"
+      "path": "../Actio.Common/Actio.Common.csproj",
+      "msbuildProject": "../Actio.Common/Actio.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Actio.common >= 1.0.0"
+      "Actio.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7561,11 +7561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hasan Nassar\\Desktop\\Actio\\src\\Actio.service.Activity\\Actio.service.Activity.csproj",
-      "projectName": "Actio.service.Activity",
-      "projectPath": "C:\\Users\\Hasan Nassar\\Desktop\\Actio\\src\\Actio.service.Activity\\Actio.service.Activity.csproj",
+      "projectUniqueName": "C:\\Users\\Hasan Nassar\\Desktop\\Actio\\src\\Actio.Service.Activity\\Actio.Service.Activity.csproj",
+      "projectName": "Actio.Service.Activity",
+      "projectPath": "C:\\Users\\Hasan Nassar\\Desktop\\Actio\\src\\Actio.Service.Activity\\Actio.Service.Activity.csproj",
       "packagesPath": "C:\\Users\\Hasan Nassar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hasan Nassar\\Desktop\\Actio\\src\\Actio.service.Activity\\obj\\",
+      "outputPath": "C:\\Users\\Hasan Nassar\\Desktop\\Actio\\src\\Actio.Service.Activity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hasan Nassar\\AppData\\Roaming\\NuGet\\NuGet.Config",

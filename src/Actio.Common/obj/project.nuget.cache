@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "epjSeukWI4IIqX/Y7OzRTO/azdxJ4E9Wizvx7gEa7it8nKPCZpyVcrrO68HubhJMYXpp7vyGMEoLVfNrLDHOqw==",
+  "dgSpecHash": "CGTZcOa49s2Kv0kHuI2S53A0YsxIHKEcUVLjKprUQ4joRj7KEpXgAZdV7qOYz+rKb3sbeH38EU502nIMh10Q4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hasan Nassar\\Desktop\\Actio\\src\\Actio.common\\Actio.common.csproj",
+  "projectFilePath": "C:\\Users\\Hasan Nassar\\Desktop\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hasan Nassar\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\Hasan Nassar\\.nuget\\packages\\microsoft.aspnetcore\\2.0.0\\microsoft.aspnetcore.2.0.0.nupkg.sha512",

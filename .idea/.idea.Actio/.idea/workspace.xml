@@ -7,85 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="220877d8-c421-4a2d-9967-0f3efc9fc6db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Actio/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Actio/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Actio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Actio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/Controllers/ActivityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/Controllers/ActivityController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.Api.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/Actio.common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/Actio.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/Actio.Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/Actio.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/Actio.Api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/Debug/netcoreapp3.1/Actio.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/Actio.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/Actio.Common.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/Services/IServiceHost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/Services/IServiceHost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/Services/ServiceHost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/Services/ServiceHost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/bin/Debug/netstandard2.0/Actio.common.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/bin/Debug/netstandard2.0/Actio.common.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/bin/Debug/netstandard2.0/Actio.common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/bin/Debug/netstandard2.0/Actio.common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/bin/Debug/netstandard2.0/Actio.common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/bin/Debug/netstandard2.0/Actio.common.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/Actio.Common.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/Actio.Common.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/Actio.Common.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/Actio.Common.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.Common.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.Common.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.common.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.common.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.common.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/Debug/netstandard2.0/Actio.common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Common/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Common/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/Actio.Service.Activity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/Actio.Service.Activity.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/Handlers/CreateActivityHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/Handlers/CreateActivityHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.common.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.service.Activity.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.service.Activity.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.service.Activity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.service.Activity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.service.Activity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/bin/Debug/netcoreapp3.1/Actio.service.Activity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Actio.Service.Activity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Actio.Service.Activity.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Actio.Service.Activity.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Actio.Service.Activity.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/Debug/netcoreapp3.1/Actio.service.Activity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Activity/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/Handlers/CreateUserHandlers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/Handlers/CreateUserHandlers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.service.Identity.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.service.Identity.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.service.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.service.Identity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.service.Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Actio.service.Identity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Actio.service.Identity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Actio.service.Identity.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/Debug/netcoreapp3.1/Actio.service.Identity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actio.Service.Identity/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/Actio.Service.Activity/Domain/Core/Activity.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Activity/Services/ActivityService.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Activity/Services/IActivityService.cs" />
-        <option value="$PROJECT_DIR$/src/Actio.Service.Activity/Startup.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Domain/Repository/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Domain/Service/IEncrypter.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Domain/Service/Encrypter.cs" />
@@ -153,15 +103,16 @@
         <option value="$PROJECT_DIR$/src/Actio.Common/Auth/JWTHandler.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Common/Extensions.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Common/Auth/Extensions.cs" />
-        <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Startup.cs" />
-        <option value="$PROJECT_DIR$/src/Actio.Api/Startup.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Services/IUserService.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Identity/appsettings.json" />
         <option value="$PROJECT_DIR$/src/Actio.Api/appsettings.json" />
-        <option value="$PROJECT_DIR$/src/Actio.Service.Activity/Handlers/CreateActivityHandler.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Api/Controllers/ActivityController.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/src/Actio.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/Actio.Service.Activity/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/Actio.Service.Activity/Handlers/CreateActivityHandler.cs" />
         <option value="$PROJECT_DIR$/src/Actio.Service.Identity/Handlers/CreateUserHandlers.cs" />
       </list>
     </option>
@@ -179,7 +130,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Actio.service.Activity: Actio.Service.Activity">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Actio.Api">
     <configuration name="Actio.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Actio.Api/Actio.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -242,6 +193,7 @@
       <workItem from="1603982124787" duration="19177000" />
       <workItem from="1604237266622" duration="2684000" />
       <workItem from="1604240108532" duration="1498000" />
+      <workItem from="1604243361452" duration="4015000" />
     </task>
     <servers />
   </component>
@@ -258,22 +210,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603993010418" />
-    <state width="1478" height="207" key="GridCell.Tab.0.bottom" timestamp="1604241619958">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1604305678859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604241619958" />
-    <state width="1478" height="207" key="GridCell.Tab.0.center" timestamp="1604241619958">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604305678859" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1604305678859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604241619958" />
-    <state width="1478" height="207" key="GridCell.Tab.0.left" timestamp="1604241619957">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604305678859" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1604305678859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604241619957" />
-    <state width="1478" height="207" key="GridCell.Tab.0.right" timestamp="1604241619958">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604305678859" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1604305678859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604241619958" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604305678859" />
     <state width="1478" height="285" key="GridCell.Tab.1.bottom" timestamp="1604241619954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -350,24 +302,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604222058127" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/Actio.Service.Activity/Handlers/CreateActivityHandler.cs</url>
-          <line>26</line>
-          <properties documentPath="C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Service.Activity\Handlers\CreateActivityHandler.cs" initialLine="26">
-            <startOffsets>
-              <option value="741" />
-            </startOffsets>
-            <endOffsets>
-              <option value="742" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

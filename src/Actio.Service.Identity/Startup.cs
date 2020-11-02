@@ -38,7 +38,7 @@ namespace Actio.Service.Identity
             services.AddTransient<ICommandHandler<CreateUser>, CreateUserHandlers>();
             services.AddScoped<IEncrypter, Encrypter>();
             services.AddScoped<IUserService, UserService>();
-            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

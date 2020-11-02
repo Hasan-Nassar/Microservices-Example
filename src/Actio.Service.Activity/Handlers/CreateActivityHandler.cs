@@ -4,6 +4,7 @@ using Actio.Common.Commands;
 using Actio.Common.Events;
 using Actio.Common.Exception;
 using Actio.Service.Activity.Services;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using RawRabbit;
 
@@ -13,14 +14,15 @@ namespace Actio.Service.Activity.Handlers
     {
         
         private readonly IBusClient _busClient;
-        private readonly ILogger<CreateActivityHandler> _logger;
+
+        private readonly IServiceScopeFactory _serviceScopeFactory;
 
 
         public CreateActivityHandler(IBusClient busClient,
-                ILogger<CreateActivityHandler> logger)
+            IServiceScopeFactory serviceScopeFactory)
         {
             _busClient = busClient;
-            _logger = logger;
+            _serviceScopeFactory = serviceScopeFactory;
         }
 
         public async Task HandleAsync(CreateActivity command)
@@ -28,10 +30,15 @@ namespace Actio.Service.Activity.Handlers
             Console.WriteLine($"Creating activity:{command.Category} {command.Name}");
             try
             {
-                // await _activityService.AddAsync(command.Id, command.UserId,
-                //     command.Category, command.Name, command.Description, command.CreatedAt);
-                // /*await _busClient.PublishAsync(
-                //     new CreateActivity());*/
+                using (var scope = _serviceScopeFactory.CreateScope())
+                {
+                    var _activityService = scope.ServiceProvider.GetService<IActivityService>();
+                    await _activityService.AddAsync(command.Id, command.UserId,
+                        command.Category, command.Name, command.Description, command.CreatedAt);
+                    /*await _busClient.PublishAsync(
+                        new CreateActivity());*/
+                }
+       
                 return;
             }
 

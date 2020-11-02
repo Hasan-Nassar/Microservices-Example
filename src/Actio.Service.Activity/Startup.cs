@@ -34,6 +34,7 @@ namespace Actio.Service.Activity
             services.AddRabbitMq(Configuration);
             services.AddTransient<ICommandHandler<CreateActivity>, CreateActivityHandler>();
             services.AddScoped<IActivityService,ActivityService>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

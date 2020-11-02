@@ -35,6 +35,7 @@ namespace Actio.Api
             services.AddRabbitMq(Configuration);
             services.AddJwt(Configuration);
             services.AddTransient<IEventHandler<ActivityCreated>, ActivityCreatedHandler>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

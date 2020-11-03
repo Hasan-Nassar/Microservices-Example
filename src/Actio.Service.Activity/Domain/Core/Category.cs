@@ -4,8 +4,8 @@ namespace Actio.Service.Activity.Domain.Core
 {
     public class Category
     {
-        public Guid Id { get; protected set; }
-        public string Name { get; protected set; }
+        public Guid Id { get;  set; }
+        public string Name { get;  set; }
         
         public Category()
         {

@@ -44,3 +44,17 @@ C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\System
 C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Hasan Nassar\Desktop\Actio\src\Actio.Api\obj\Debug\netcoreapp3.1\Actio.Api.MvcApplicationPartsAssemblyInfo.cs

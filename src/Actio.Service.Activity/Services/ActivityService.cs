@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Actio.Common.Exception;
+using Actio.Service.Activity.Domain.Core;
 using Actio.Service.Activity.Domain.Repositories;
 
 namespace Actio.Service.Activity.Services
@@ -19,12 +21,16 @@ namespace Actio.Service.Activity.Services
         public async Task AddAsync
             (Guid id, Guid userId, string category, string name, string description, DateTime createdAt)
         {
-            var activitycategory = await _categoryRepository.GetAsync(name);
-            if (activitycategory == null)
+            var activitycategory = new Category
             {
-                throw new Exception("category_not_found"/*,$"Category:'{category}was not found."*/);
-            }
-            
+                Name = category,
+                Id = Guid.NewGuid()
+            };
+            // if (activitycategory == null)
+            // {
+            //     throw new ActioException("category_not_found",$"Category:'{category}was not found.");
+            // }
+      
             var activity = new Domain.Core.Activity(id,activitycategory,userId,
                 name , description,createdAt);
             await _activityRepository.AddAsync(activity);

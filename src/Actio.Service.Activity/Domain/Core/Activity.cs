@@ -1,21 +1,24 @@
 ﻿using System;
 using Actio.Common.Exception;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace Actio.Service.Activity.Domain.Core
 {
     public class Activity
     {
-        public Guid Id { get; protected set; }
         
-        public string Name { get; protected set; }
+        [BsonId]
+        public Guid Id { get;  set; }
         
-        public string Category { get; protected set; }
+        public string Name { get;  set; }
         
-        public string Description { get; protected set; }
+        public string Category { get;  set; }
         
-        public Guid UserId { get; protected set; }
+        public string Description { get;  set; }
         
-        public DateTime CreateAt { get; protected set; }
+        public Guid UserId { get;  set; }
+        
+        public DateTime CreateAt { get;  set; }
         
 
         protected Activity()
@@ -24,13 +27,13 @@ namespace Actio.Service.Activity.Domain.Core
 
         public Activity(Guid id ,Category category,Guid userId,string name ,string description,DateTime createAt)
         {
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                throw new ActioException("empty_activity_name",$"Activity name can not be empty.");
-            }
+            // if (string.IsNullOrWhiteSpace(name))
+            // {
+            //     throw new ActioException("empty_activity_name",$"Activity name can not be empty.");
+            // }
             
             Id = id;
-            Category = category.Name;
+             Category = category.Name;
             UserId = userId;
             Name = name;
             Description = description;

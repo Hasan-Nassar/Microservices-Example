@@ -101,6 +101,14 @@
           <e p="Handlers" t="Include">
             <e p="CreateActivityHandler.cs" t="Include" />
           </e>
+          <e p="MongoDb" t="Include">
+            <e p="Extensions.cs" t="Include" />
+            <e p="MongoOptions.cs" t="Include" />
+            <e p="Repository" t="Include">
+              <e p="ActivityRepository.cs" t="Include" />
+              <e p="CategoryRepository.cs" t="Include" />
+            </e>
+          </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netcoreapp3.1" t="Include">

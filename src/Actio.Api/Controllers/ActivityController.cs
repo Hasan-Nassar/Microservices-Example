@@ -26,6 +26,9 @@ namespace Actio.Api.Controllers
             await _busClient.PublishAsync(command);
             return Accepted($"activities/{command.Id}");
         }
+     
+        
+        
 
         [HttpGet("")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]

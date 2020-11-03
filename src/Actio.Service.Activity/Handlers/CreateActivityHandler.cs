@@ -5,7 +5,6 @@ using Actio.Common.Events;
 using Actio.Common.Exception;
 using Actio.Service.Activity.Services;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using RawRabbit;
 
 namespace Actio.Service.Activity.Handlers
@@ -35,11 +34,9 @@ namespace Actio.Service.Activity.Handlers
                     var _activityService = scope.ServiceProvider.GetService<IActivityService>();
                     await _activityService.AddAsync(command.Id, command.UserId,
                         command.Category, command.Name, command.Description, command.CreatedAt);
-                    /*await _busClient.PublishAsync(
-                        new CreateActivity());*/
                 }
        
-                return;
+                
             }
 
             catch (ActioException exception)

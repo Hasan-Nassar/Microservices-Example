@@ -44,13 +44,12 @@ namespace Actio.Service.Identity.Handlers
                 await _busClient.PublishAsync(new CreateUserRejected(command.Email, exception.Code,
                     exception.Message));
             }
-            
+
             catch (Exception exception)
             {
                 await _busClient.PublishAsync(new CreateUserRejected(command.Email, "Error",
                     exception.Message));
             }
-            
         }
     }
 }
